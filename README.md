@@ -1,5 +1,4 @@
 <h1>Yelp Camp</h1>
-<hr>
 <div style = "background : rgb(229, 229, 229)">
     Technologies Used:
 
