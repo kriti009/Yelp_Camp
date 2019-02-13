@@ -19,4 +19,5 @@ Yelp Camp
   - Search/Filter Functionality
   - CSS Cleanup (Better Responsive Design)
  </div>
- ![solarized vim](https://github.com/altercation/solarized/raw/master/img/solarized-vim.png)
+ ![alt text](screenshots/filename.png "Description goes here")
+ ![yelp_camp1](ss/)
