@@ -24,3 +24,8 @@
 <h3>Index Page</h3>
 
 ![yelp_camp1](https://github.com/kriti009/Yelp_Camp/blob/master/ss/yelp_camp2.png "ss")
+<br>
+<br>
+<div>
+    <i>Modeled after 'Yelp Camp Project' via Udemy: The Web Developer Bootcamp</i>
+</div>
