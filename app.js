@@ -17,9 +17,26 @@ var commentRoutes = require("./routes/comments.js"),
     campgroundRoutes = require("./routes/campgrounds.js"),
     indexRoutes = require("./routes/index.js");
 
+
+//------------------------------SiD
+
+//Import the mongoose module
+// var mongoose = require('mongoose');
+
+//Set up default mongoose connection
+var mongoDB = 'mongodb://kriti:password123@ds259732.mlab.com:59732/yelp_camp';
+mongoose.connect(mongoDB);
+// Get Mongoose to use the global promise library
+mongoose.Promise = global.Promise;
+//Get the default connection
+var db = mongoose.connection;
+
+//Bind connection to error event (to get notification of connection errors)
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+//-----------------------------------------
 //seedDB(); //seed the database
-console.log(process.env.DATABASEURL);
-mongoose.connect("mongodb://localhost:27017/yelp_camp",{ useNewUrlParser: true});
+// console.log(process.env.DATABASEURL);
+// mongoose.connect("mongodb://localhost:27017/yelp_camp",{ useNewUrlParser: true});
 
 app.set("view engine", "ejs");
 app.use(methodOverride("_method"));
