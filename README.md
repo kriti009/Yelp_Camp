@@ -1,4 +1,5 @@
 <h1>Yelp Camp</h1>
+<p>A Campground Rating site that uses RESTful API.</p>
 <div style = "background : rgb(229, 229, 229)">
     Technologies Used:
 
